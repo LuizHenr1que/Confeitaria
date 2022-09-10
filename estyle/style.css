@@ -24,11 +24,11 @@ a {
     align-items: center;
 }
 .header{
-    background-color: var(--color-dark2);
+    background-color: var(--color-white);
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
-    box-shadow: 1px 1px 4px var(--color-dark4);
+    box-shadow: 1px 1px 4px var(--color-dark);
 }
 .navigation_header{
     gap: 3em;
@@ -41,7 +41,7 @@ a {
     transition: 1s;
 }
 .navigation_header a{
-    color: var(--color-dark);
+    color: var(--color-pink);
     transition: 1s;
     font-weight: bold;
 }
@@ -49,14 +49,14 @@ a {
     color: var(--color-white);
 }
 .active{
-    background: var(--color-pink);
+    background: var(--color-dark);
     padding: 10px;
     border-radius: 10px;
 }
 .btn_icon_header{
     background: transparent;
     border: none;
-    color: var(--color-white);
+    color: var(--color-dark);
     cursor: pointer;
     display: none;
 }
