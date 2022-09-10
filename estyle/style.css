@@ -56,7 +56,7 @@ a {
 .btn_icon_header{
     background: transparent;
     border: none;
-    color: var(--color-dark);
+    color: var(--color-pink);
     cursor: pointer;
     display: none;
 }
