@@ -9,7 +9,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: var(--color-dark);
     font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -42,7 +41,7 @@ a {
     transition: 1s;
 }
 .navigation_header a{
-    color: var(--color-purple);
+    color: var(--color-dark);
     transition: 1s;
     font-weight: bold;
 }
@@ -50,7 +49,7 @@ a {
     color: var(--color-white);
 }
 .active{
-    background: var(--color-dark3);
+    background: var(--color-pink);
     padding: 10px;
     border-radius: 10px;
 }
@@ -66,7 +65,7 @@ a {
         position: absolute;
         flex-direction: column !important;
         top: 0;
-        background: var(--color-dark5);
+        background: var(--color-dark);
         height: 100%;
         width: 35vw;
         padding: 1em;
@@ -96,14 +95,14 @@ a {
     text-align: center;
     font-size: 1.1em;
     line-height: 30px;
-    color: var(--color-white);
+    color: var(--color-dark);
     top: 145px;
     left: 40px;
 }
 .compre_agora {
     display: inline-block;
     width: 160px;
-    background: var(--color-dark1);
+    background: var(--color-pink);
     border-radius: 15px;
     color: var(--color-dark);
     text-transform: uppercase;
@@ -130,7 +129,7 @@ a {
   */
   .titulo_linha:before,
   .titulo_linha:after {
-    background-color: #000;
+    background-color: var(--color-dark);
     content: "";
     display: inline-block;
     height: 1px;
@@ -188,6 +187,9 @@ a {
     padding: 30px;
     text-align: center;
 }
+.section3_sobre > a {
+    color: var(--color-pink);
+}
 
 /***@@@@@******************INICIO SECTION4*******@@@@**********/
 .section4_article { 
@@ -234,33 +236,7 @@ a {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***@@@@@******************INICIO fale conosco*******@@@@**********/
 .fale_conosco {
     background: var(--color-pink);
     display: flex;
@@ -341,4 +317,16 @@ form {
         width: 100vw;
     }
 
+}
+/***@@@@@******************INICIO FOOTER*******@@@@**********/
+.footer_container {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    font-size: xx-small;
+}
+.footer_redes_social{
+    width: 15px;
 }
