@@ -2,7 +2,7 @@
 ![preview](./.github/screen.png)
 >Layout totalmente rensponsivo.
 Projeto construido inspirado em um template de confeitaria.
-[🔗Clique aqui para acessar](https://luizhenr1que.github.io/SiteBolos/)
+[🔗Clique aqui para acessar](https://luizhenr1que.github.io/Confeitaria/)
 
 ## 🛠 Tecnologias
 - HTML
